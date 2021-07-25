@@ -1,0 +1,17 @@
+23:15 - 25/07/2021
+--------------------------------
+
+What happened:
+- RTMP server has now been set up.
+- Now the users can stream over to the RTMP server and my python script can access it, in high quality.
+
+To do:
+- Now i will create a android application that streams the webcam to the RTMP server
+- Then a website that also streams the webcam data to the RTMP server
+
+Ideas:
+- Now the high end server can access the video from the linode server via rtmp and now analyze the video feed so that it will be quicker and 
+  now it can also be distributed between various servers as each can every stream can be grabbed individually. 
+
+Next steps:
+- Make the database that will now store the faces and the locations, etc. 
