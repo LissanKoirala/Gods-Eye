@@ -1,3 +1,17 @@
+15:05 - 26/07/2021
+--------------------------------
+
+Now also add the funcionality to search in data breaches so that we can know more about the person we are finding for,
+also it will collect information form social medias, phone numbers and perform an OSNIT investigation. 
+
+We could also send phising emails to the person to aquire more informations from them. 
+For example, send them a email from a similar serivce they like and make them login in with a prefilled
+email input, then they will input passwords that they think is most likely what they used, we will say 
+it's incorecct for every password so we can gather as much probable passwords as possible form them. 
+Now with the passwords that we gather from the website, we try those passwords in their other social media 
+accounts and services. 
+
+
 14:45 - 26/07/2021
 --------------------------------
 
