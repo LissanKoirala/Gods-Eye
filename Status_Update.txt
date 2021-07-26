@@ -1,3 +1,38 @@
+14:45 - 26/07/2021
+--------------------------------
+
+For the streams that is not in the main locations where the suspect is, 
+upload the streams to google drive as we have 600 GB free usuage with Google Workspace. 
+Then we will use the Google Cloud Shell to process those
+data as we have 50 hours of computation per week to use.
+
+
+Once the person has been found open the page in full screen mode:
+https://earth.google.com/web/search/{geo-coordinates}
+Better if this page can be opened in custom browser so that it looks better,
+instead opening it in google chrome. If on the main computer or also put a link for
+google earth in the website if user is looking it form a brower elsewhere. 
+
+
+# Customization of the admin panel
+
+To customize admin panel, edit the file:
+/node_modules/node-media-server/src/public/admin/index.html
+
+and add the following :
+-----------------------------------------------------------
+<script type="text/javascript">
+var selector = "#root > section > aside > div > div > h1";
+var el = document.querySelector(selector);
+el.innerHTML = "God's Eye Resources";
+
+var selector = "#root > section > section > footer";
+var el = document.querySelector(selector);
+el.innerHTML = "";
+</script>
+-----------------------------------------------------------
+
+
 23:15 - 25/07/2021
 --------------------------------
 
