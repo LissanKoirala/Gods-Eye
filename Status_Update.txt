@@ -1,3 +1,14 @@
+
+23:30 - 27/07/2021
+--------------------------------
+
+I have started to create a api that assigns devices rtmp ids and now they are able to update their 
+location and can ask to the api if their RTMP streams are being recieved. Every request is then logged
+in a database so that when the person is identified in the stream, we can use the stream id and then
+lookup for the id in the database to konw about the device location so that we know where they have been 
+traced. 
+
+
 17:55 - 27/07/2021
 --------------------------------
 
