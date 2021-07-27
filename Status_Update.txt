@@ -1,3 +1,15 @@
+17:55 - 27/07/2021
+--------------------------------
+
+The device sends a post request to the server with the details about the phone, like systeminfo
+local time, the location of the device, then the server with respond with a id that
+the phone will use to do the rtsp stream so that when the person is identified in the
+video, we can look at it's rstp id and look up on the database the information about the 
+device that captured it. We also can then make the device send us it's location periodically
+so that we know the location even if the device were to move as we would have the logs of 
+every location with timestamp that the device reported with.
+
+
 15:05 - 26/07/2021
 --------------------------------
 
@@ -28,7 +40,7 @@ instead opening it in google chrome. If on the main computer or also put a link 
 google earth in the website if user is looking it form a brower elsewhere. 
 
 
-# Customization of the admin panel
+# Customization of the admin panel for node media server
 
 To customize admin panel, edit the file:
 /node_modules/node-media-server/src/public/admin/index.html
