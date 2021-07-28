@@ -1,4 +1,15 @@
 
+11:25 - 28/07/2021
+--------------------------------
+
+Add a stream status api, devices will update their status on if they are alive or are encountering any problems
+with the server, for example if there is problem with RTMP stream, the server can provide it with another id, 
+also if the server isn't recieving it's RTMP stream then it can tell the device to restart it's stream. 
+
+Also there will be alterate forms of streaming available, like a direct url of the stream provided by the device,
+like for an IP camera. 
+
+
 23:30 - 27/07/2021
 --------------------------------
 
